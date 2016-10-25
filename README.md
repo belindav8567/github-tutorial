@@ -67,4 +67,6 @@ On cloud9 you'll need to...
 *`git commit -m "message"`  
   * takes a snapshot of the current files that are on the stage, the messag eshould also state what has been edited on the file
 *`git status`  
+  * One helpful tool/command that shows current files which are commited 
 *`git push`  
+  * stores code into the cloud
