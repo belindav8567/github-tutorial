@@ -44,7 +44,7 @@ On github you'll need to...
 * git init 
   * never initialize on workspace  
 * touch README.md  
-  * touch could be used within the directory 
+  * touch could be used within the directory   
 ![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785125/40874454-9c66-11e6-9036-d76dc4d0d0a6.png)
 * type something on the file! 
   * ex: "This is my first repo!!"  
