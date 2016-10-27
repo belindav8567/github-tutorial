@@ -37,7 +37,7 @@ The difference between these two is that Git doesn't require Github, but Github 
 ## Repository Setup
 ### Making a first-repo    
 On github you'll need to...
-* Make a file called first-repo
+* Make a file called first-repo  
   *mkdir makes a new directory  
 * cd into first-repo 
   * always change directory to the new file 
