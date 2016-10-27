@@ -36,7 +36,6 @@ The difference between these two is that Git doesn't require Github, but Github 
 ---
 ## Repository Setup
 ### Making a first-repo    
-*screenshot*  
 On github you'll need to...
 * Make a file called first-repo
   *mkdir makes a new directory  
@@ -46,17 +45,23 @@ On github you'll need to...
   * never initialize on workspace  
 * touch README.md  
   * touch could be used within the directory 
+![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785125/40874454-9c66-11e6-9036-d76dc4d0d0a6.png)
 * type something on the file! 
   * ex: "This is my first repo!!"  
 * After you're done you will need to use git add
   *One of the important commands you'll need to use
 * Afterwards git commit -m "message"
   * It is always important to add a message, this would be able to show what you have added/edited
+![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785992/c7eb8092-9c69-11e6-9894-9d3ebbfefad2.png)
 * Git push
   * don't push unless you already made a repo on c9
  * There you go! you made your first repo :)  
-On cloud9 you'll need to...
- *
+//On cloud9 you'll need to...  
+![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785655/3b30fe30-9c68-11e6-8d26-db7facc2550a.png)
+ * The names have to match  
+ * After making the repository, you'll have to copy each line below on github: 
+![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785636/1c8b0c28-9c68-11e6-8034-27b504728d12.png)
+![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785997/cd699356-9c69-11e6-9941-d7deac92573b.png)
 
 
 
@@ -83,16 +88,4 @@ On cloud9 you'll need to...
   * One helpful tool/command that shows current files which are commited   
 
 *`git push`  
-  * stores code into the cloud 
-
-## Error Handling 
-At times you will come across some errors, don't panick. There is a way you can solve the issue!
-Sometimes we make mistakes, If you initialize in a wrong directory such as workspace. There is an easy solution
-  * Use...    
-Removing a repository is easy and simple!
-
-`fork`  
-  * Allows to collaborate with others on the same repository
-  * You're able to approve or deny changes
-`cloning`  
-  * Makes a copy of a repository 
+  * stores code into the cloud  
