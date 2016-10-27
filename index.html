@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>GitHub-tutorial by belindav8567</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/belindav8567/github-tutorial">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>GitHub-tutorial</h1>
+            <h2>Git Ready To Learn </h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/belindav8567/github-tutorial/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/belindav8567/github-tutorial/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Belinda Vargas</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p><strong><em>Git</em></strong></p>
+
+<ul>
+<li>Version control<br>
+</li>
+<li>Takes snapshots of code </li>
+</ul>
+
+<p><strong><em>Github</em></strong>  </p>
+
+<ul>
+<li>It stores code into the "clouds" known as the website<br>
+</li>
+<li>Github visually tracks changes  since the code is stored into the clouds<br>
+</li>
+<li>Able to collaborate on a same project<br>
+The difference between these two is that Git doesn't require Github, but Github does require Git </li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<h3>
+<a id="signing-up-to-github" class="anchor" href="#signing-up-to-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Signing up to github</h3>
+
+<p><img src="https://cloud.githubusercontent.com/assets/15129114/19668093/3c494cf6-9a23-11e6-8d8d-211b0a0d6a8d.png" alt="screenshot"></p>
+
+<ul>
+<li>You must use an email and password </li>
+<li>After making an account you will need check your email to verify with github
+*Next you'll need a ssh key. This could be used only one time, it's very helpful </li>
+<li>On github: go to settings<br>
+<img src="https://cloud.githubusercontent.com/assets/15129114/19669263/eda93742-9a2b-11e6-8ff7-db2ab82e1a3b.png" alt="screenshot">
+</li>
+<li>click on SSH </li>
+<li>after clicking on ssh key you'll see that there is a "key" needed<br>
+
+<ul>
+<li>you will need to go to c9 and get a key<br>
+<img src="https://cloud.githubusercontent.com/assets/15129114/19669403/0fb7ef58-9a2d-11e6-9804-733185d656aa.png" alt="screenshot">
+<img src="https://cloud.githubusercontent.com/assets/15129114/19668387/863abe92-9a25-11e6-8c70-e46f635bba80.png" alt="screenshot">
+</li>
+</ul>
+</li>
+<li>copy and paste the key onto github
+<img src="https://cloud.githubusercontent.com/assets/15129114/19671767/1ec54132-9a3f-11e6-9ddf-88b7b1e0404c.png" alt="screenshot">
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<h3>
+<a id="making-a-first-repo" class="anchor" href="#making-a-first-repo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Making a first-repo</h3>
+
+<p>On github you'll need to...</p>
+
+<ul>
+<li>Make a file called first-repo
+*mkdir makes a new directory<br>
+</li>
+<li>cd into first-repo 
+
+<ul>
+<li>always change directory to the new file </li>
+</ul>
+</li>
+<li>git init 
+
+<ul>
+<li>never initialize on workspace<br>
+</li>
+</ul>
+</li>
+<li>touch README.md<br>
+
+<ul>
+<li>touch could be used within the directory<br>
+<img src="https://cloud.githubusercontent.com/assets/15129114/19785125/40874454-9c66-11e6-9036-d76dc4d0d0a6.png" alt="screenshot">
+</li>
+</ul>
+</li>
+<li>type something on the file! 
+
+<ul>
+<li>ex: "This is my first repo!!"<br>
+</li>
+</ul>
+</li>
+<li>After you're done you will need to use git add
+*One of the important commands you'll need to use</li>
+<li>Afterwards git commit -m "message"
+
+<ul>
+<li>It is always important to add a message, this would be able to show what you have added/edited
+<img src="https://cloud.githubusercontent.com/assets/15129114/19785992/c7eb8092-9c69-11e6-9894-9d3ebbfefad2.png" alt="screenshot">
+</li>
+</ul>
+</li>
+<li>Git push
+
+<ul>
+<li>don't push unless you already made a repo on c9</li>
+<li>There you go! you made your first repo :)<br>
+//On cloud9 you'll need to...<br>
+<img src="https://cloud.githubusercontent.com/assets/15129114/19785655/3b30fe30-9c68-11e6-8d26-db7facc2550a.png" alt="screenshot">
+</li>
+<li>The names have to match<br>
+</li>
+<li>After making the repository, you'll have to copy each line below on github: 
+<img src="https://cloud.githubusercontent.com/assets/15129114/19785636/1c8b0c28-9c68-11e6-8034-27b504728d12.png" alt="screenshot">
+<img src="https://cloud.githubusercontent.com/assets/15129114/19785997/cd699356-9c69-11e6-9941-d7deac92573b.png" alt="screenshot">
+</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<h3>
+<a id="these-lists-of-commands-will-be-helpful-on-github" class="anchor" href="#these-lists-of-commands-will-be-helpful-on-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>These lists of commands will be helpful on github</h3>
+
+<p>*<code>git init</code>  </p>
+
+<ul>
+<li>This command initializes git in directory which is now called a repository. This can only happen once at the beginning</li>
+</ul>
+
+<p>*<code>mkdir</code>  </p>
+
+<ul>
+<li>makes a file in the workspace<br>
+</li>
+</ul>
+
+<p>*<code>cd</code>  </p>
+
+<ul>
+<li>Allows to change directory<br>
+</li>
+</ul>
+
+<p>*<code>git add file</code>  </p>
+
+<ul>
+<li>adds file to the stage<br>
+</li>
+</ul>
+
+<p>*<code>git commit -m "message"</code>  </p>
+
+<ul>
+<li>takes a snapshot of the current files that are on the stage, the messag eshould also state what has been edited on the file<br>
+</li>
+</ul>
+
+<p>*<code>git status</code>  </p>
+
+<ul>
+<li>One helpful tool/command that shows current files which are commited<br>
+</li>
+</ul>
+
+<p>*<code>git push</code>  </p>
+
+<ul>
+<li>stores code into the cloud<br>
+</li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/belindav8567">belindav8567</a> can be found on <a href="https://github.com/belindav8567/github-tutorial">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
