@@ -18,9 +18,9 @@ The difference between these two is that Git doesn't require Github, but Github 
 ## Initial Setup
 ### Signing up to github
 ![screenshot](https://cloud.githubusercontent.com/assets/15129114/19668093/3c494cf6-9a23-11e6-8d8d-211b0a0d6a8d.png)
-* You must use an email and password 
+* You must use an email and password   
 * After making an account you will need check your email to verify with github
-*Next you'll need a ssh key. This could be used only one time, it's very helpful 
+* Next you'll need a ssh key. This could be used only one time, it's very helpful 
 * On github: go to settings  
 ![screenshot](https://cloud.githubusercontent.com/assets/15129114/19669263/eda93742-9a2b-11e6-8ff7-db2ab82e1a3b.png)
 * click on SSH 
@@ -55,7 +55,7 @@ On github you'll need to...
 ![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785992/c7eb8092-9c69-11e6-9894-9d3ebbfefad2.png)
 * Git push
   * don't push unless you already made a repo on c9
- * There you go! you made your first repo :)  
+ 
 On cloud9 you'll need to...  
 ![screenshot](https://cloud.githubusercontent.com/assets/15129114/19785655/3b30fe30-9c68-11e6-8d26-db7facc2550a.png)
  * The names have to match  
